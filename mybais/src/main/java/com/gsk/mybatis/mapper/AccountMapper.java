@@ -8,7 +8,7 @@ import java.util.List;
 
 
 public interface AccountMapper extends Mapper<Account> {
-
+    // 123
     List<Account> findAll();
     //
     List<Account> findAccountByUid(Integer uid);
