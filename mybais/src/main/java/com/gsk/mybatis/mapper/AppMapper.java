@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface AppMapper {
     int deleteByPrimaryKey(Long id);
-
+    // 12313213
     int insert(App record);
 
     int insertSelective(App record);
